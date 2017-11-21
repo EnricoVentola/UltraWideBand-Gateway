@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTALS-Gateway", "RTALS-Gateway\RTALS-Gateway.csproj", "{AA87DD22-E85F-471E-B703-0F756974BC38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTALS-Gateway", "RTALS-Gateway\RTALS-Gateway\RTALS-Gateway.csproj", "{166F9465-7BF5-47E7-8FB6-6319B71CEFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTALSGatewayRepository", "RTALS-GatewayRepository\RTALSGatewayRepository.csproj", "{0DF0271A-CC76-4255-9BD2-F067CC9CAEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA87DD22-E85F-471E-B703-0F756974BC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA87DD22-E85F-471E-B703-0F756974BC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA87DD22-E85F-471E-B703-0F756974BC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA87DD22-E85F-471E-B703-0F756974BC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166F9465-7BF5-47E7-8FB6-6319B71CEFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166F9465-7BF5-47E7-8FB6-6319B71CEFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166F9465-7BF5-47E7-8FB6-6319B71CEFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166F9465-7BF5-47E7-8FB6-6319B71CEFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF0271A-CC76-4255-9BD2-F067CC9CAEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF0271A-CC76-4255-9BD2-F067CC9CAEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF0271A-CC76-4255-9BD2-F067CC9CAEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF0271A-CC76-4255-9BD2-F067CC9CAEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
